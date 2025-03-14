@@ -1,0 +1,119 @@
+.Layout {
+    width           : 40vw;
+    height          : fit-content;
+    /* background-color: aqua; */
+    display         : flex;
+    flex-direction  : column;
+    justify-content : flex-start;
+    align-items     : center;
+}
+
+.Layout .Header {
+    display         : flex;
+    flex-direction  : column;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #1DA57A; */
+}
+.ant-tabs-nav-list {
+    display: flex;
+    justify-content: space-evenly; /* Căn đều các tab trong container */
+    width: 100%; /* Đảm bảo container chiếm hết chiều rộng của màn hình */
+  }
+
+  .ant-tabs-nav {
+    display: flex;
+    justify-content: center; /* Căn giữa các tab */
+    width: 40vw; /* Đặt chiều rộng thanh tabs là 40% của chiều rộng màn hình */
+    margin: 0 auto; /* Đảm bảo thanh tabs nằm giữa trang */
+  }
+  .ant-tabs-tab-active {
+    /* color: #1DA57A; */
+    font-weight: bold; /* Làm đậm chữ của tab active */
+  }
+  /* Tùy chỉnh màu sắc của các tab không active */
+.ant-tabs-tab {
+    color: black; /* Màu chữ của tab không active */
+  }
+  
+  /* Tùy chỉnh màu của thanh chỉ dẫn (line) */
+  .ant-tabs-ink-bar {
+    height: 2px; /* Chiều cao thanh chỉ dẫn */
+    width: 37.6625px; /* Chiều rộng của thanh chỉ dẫn */
+    left: 280.994px; /* Điều chỉnh vị trí của thanh chỉ dẫn */
+    transform: translateX(-50%); /* Căn chỉnh lại thanh chỉ dẫn */
+  }
+
+  .all {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 1em 3em 1em 3em;
+  }
+  .active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 1em 3em 1em 3em;
+  }
+  .completed {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 1em 3em 1em 3em;
+  }
+ .Search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 2em;
+}
+.Search input {
+  width: 60%;
+  height: 100%;
+  outline: none;
+}
+ .Search button {
+  color: white;
+  background-color: blue;
+  outline: none;
+}
+ .content {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+ .content .Task {
+  display: flex;
+}
+ .content .Task input {
+  width: 15px;
+  height: 15px;
+}
+.delete {
+  color: white;
+  background-color: red;
+  margin-top: 2em;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+}
+.TaskCom {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
